@@ -1,5 +1,5 @@
-from PySide2.QtWidgets import QWidget
-from PySide2.QtGui import QPainter
+from PySide6.QtWidgets import QWidget
+from PySide6.QtGui import QPainter
 
 class Sign(QWidget):
     def __init__(self, parent, el_pix):
